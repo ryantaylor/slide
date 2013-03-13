@@ -83,5 +83,5 @@ $(document).ready(function(){
 				$(".large").css({left: px, top: py, backgroundPosition: bgp});
 			}
 		}
-	})
-})
+	});
+});
