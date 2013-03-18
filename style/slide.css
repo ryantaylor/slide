@@ -8,13 +8,9 @@ h1 {
 }
 
 #window {
-	width: 500px;
+	width: 50%;
 	height: 250px;
 	margin: 0px auto;
-	background: white;
-}
-
-.test {
 	background: white;
 }
 
@@ -30,15 +26,16 @@ h1 {
 	opacity: 1;
 }
 
-.animate1 {
-	-webkit-animation: slide1 2s;
-	-moz-animation: slide1 2s;
+.redslideoutleft {
+	-webkit-animation: redslideoutleft 2s;
+	-moz-animation: redslideoutleft 2s;
 }
 
-@-webkit-keyframes slide1 {
+@-webkit-keyframes redslideoutleft {
 
 	0% {
 		opacity: 1;
+		left: 50%;
 	}
 	
 	100% {
@@ -47,15 +44,111 @@ h1 {
 	}
 }
 
-@-moz-keyframes slide1 {
+@-moz-keyframes redslideoutleft {
 
 	0% {
 		opacity: 1;
+		left: 50%;
 	}
 	
 	100% {
 		opacity: 0;
 		left: 25%;
+	}
+}
+
+.redslideinleft {
+	-webkit-animation: redslideinleft 2s;
+	-moz-animation: redslideinleft 2s;
+}
+
+@-webkit-keyframes redslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+		
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-moz-keyframes redslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+.redslideoutright {
+	-webkit-animation: redslideoutright 2s;
+	-moz-animation: redslideoutright 2s;
+}
+
+@-webkit-keyframes redslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+@-moz-keyframes redslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+.redslideinright {
+	-webkit-animation: redslideinright 2s;
+	-moz-animation: redslideinright 2s;
+}
+
+@-webkit-keyframes redslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+		
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-moz-keyframes redslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
 	}
 }
 
@@ -71,12 +164,12 @@ h1 {
 	opacity: 0;
 }
 
-.animate2 {
-	-webkit-animation: slide2 2s;
-	-moz-animation: slide2 2s;
+.blueslideinleft {
+	-webkit-animation: blueslideinleft 2s;
+	-moz-animation: blueslideinleft 2s;
 }
 
-@-webkit-keyframes slide2 {
+@-webkit-keyframes blueslideinleft {
 
 	0% {
 		opacity: 0;
@@ -89,7 +182,7 @@ h1 {
 	}
 }
 
-@-moz-keyframes slide2 {
+@-moz-keyframes blueslideinleft {
 
 	0% {
 		opacity: 0;
@@ -99,5 +192,98 @@ h1 {
 	100% {
 		opacity: 1;
 		left: 50%;
+	}
+}
+
+.blueslideoutleft {
+	-webkit-animation: blueslideoutleft 2s;
+	-moz-animation: blueslideoutleft 2s;
+}
+
+@-webkit-keyframes blueslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+@-moz-keyframes blueslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+.blueslideinright {
+	-webkit-animation: blueslideinright 2s;
+	-moz-animation: blueslideinright 2s;
+}
+
+@-webkit-keyframes blueslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-moz-keyframes blueslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+.blueslideoutright {
+	-webkit-animation: blueslideoutright 2s;
+	-moz-animation: blueslideoutright 2s;
+}
+
+@-webkit-keyframes blueslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+@-moz-keyframes blueslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
 	}
 }
