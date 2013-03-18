@@ -7,14 +7,18 @@ h1 {
 	text-align: center;
 }
 
-.window {
+#window {
 	width: 500px;
 	height: 250px;
-	background: white;
 	margin: 0px auto;
+	background: white;
 }
 
-.box {
+.test {
+	background: white;
+}
+
+#red {
 	width: 200px;
 	height: 200px;
 	background: rgba(255,0,0,0.5);
@@ -23,34 +27,77 @@ h1 {
 	top: 205px;
 	margin-left: -100px;
 	margin-top: -100px;
+	opacity: 1;
+}
+
+.animate1 {
+	-webkit-animation: slide1 2s;
+	-moz-animation: slide1 2s;
+}
+
+@-webkit-keyframes slide1 {
+
+	0% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+@-moz-keyframes slide1 {
+
+	0% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+#blue {
+	width: 200px;
+	height: 200px;
+	background: rgba(0,0,255,0.5);
+	position: absolute;
+	left: 75%;
+	top: 205px;
+	margin-left: -100px;
+	margin-top: -100px;
 	opacity: 0;
 }
 
-.animate {
-	-webkit-animation: slide 5s;
-	-moz-animation: slide 5s;
+.animate2 {
+	-webkit-animation: slide2 2s;
+	-moz-animation: slide2 2s;
 }
 
-@-webkit-keyframes slide {
+@-webkit-keyframes slide2 {
 
 	0% {
-		opacity: 1;
+		opacity: 0;
+		left: 75%;
 	}
 	
 	100% {
-		opacity: 0;
-		left: 25%;
+		opacity: 1;
+		left: 50%;
 	}
 }
 
-@-moz-keyframes slide {
+@-moz-keyframes slide2 {
 
 	0% {
-		opacity: 1;
+		opacity: 0;
+		left: 75%;
 	}
 	
 	100% {
-		opacity: 0;
-		left: 25%;
+		opacity: 1;
+		left: 50%;
 	}
 }
