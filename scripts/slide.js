@@ -6,15 +6,11 @@ $(document).ready(function() {
 		if ($count == 0) {
 			var elRed = $('#red');
 				elBlue = $('#blue');
-				//newRed = elRed.clone(true);
-				//newBlue = elBlue.clone(true);
-				
-			//elRed.before(newRed);
-			//elBlue.before(newBlue);
+
 			$(elRed).remove();
 			$(elBlue).remove();
-			$('#window').append('<div id="red"></div>')
-			$('#window').append('<div id="blue"></div>')
+			$('#window-slide').append('<div id="red"></div>')
+			$('#window-slide').append('<div id="blue"></div>')
 		
 			$('#red').addClass('redslideoutleft');
 			$('#blue').addClass('blueslideinleft');
@@ -26,15 +22,11 @@ $(document).ready(function() {
 		else if ($count == 1) {
 			var elRed = $('#red');
 				elBlue = $('#blue');
-				//newRed = elRed.clone(true);
-				//newBlue = elBlue.clone(true);
-				
-			//elRed.before(newRed);
-			//elBlue.before(newBlue);
+
 			$(elRed).remove();
 			$(elBlue).remove();
-			$('#window').append('<div id="red"></div>')
-			$('#window').append('<div id="blue"></div>')
+			$('#window-slide').append('<div id="red"></div>')
+			$('#window-slide').append('<div id="blue"></div>')
 			
 			$('#red').addClass('redslideinleft');
 			$('#blue').addClass('blueslideoutleft');
@@ -48,15 +40,11 @@ $(document).ready(function() {
 		if ($count == 0) {
 			var elRed = $('#red');
 				elBlue = $('#blue');
-				//newRed = elRed.clone(true);
-				//newBlue = elBlue.clone(true);
-				
-			//elRed.before(newRed);
-			//elBlue.before(newBlue);
+
 			$(elRed).remove();
 			$(elBlue).remove();
-			$('#window').append('<div id="red"></div>')
-			$('#window').append('<div id="blue"></div>')
+			$('#window-slide').append('<div id="red"></div>')
+			$('#window-slide').append('<div id="blue"></div>')
 		
 			$('#red').addClass('redslideoutright');
 			$('#blue').addClass('blueslideinright');
@@ -68,15 +56,11 @@ $(document).ready(function() {
 		else if ($count == 1) {
 			var elRed = $('#red');
 				elBlue = $('#blue');
-				//newRed = elRed.clone(true);
-				//newBlue = elBlue.clone(true);
-				
-			//elRed.before(newRed);
-			//elBlue.before(newBlue);
+
 			$(elRed).remove();
 			$(elBlue).remove();
-			$('#window').append('<div id="red"></div>')
-			$('#window').append('<div id="blue"></div>')
+			$('#window-slide').append('<div id="red"></div>')
+			$('#window-slide').append('<div id="blue"></div>')
 			
 			$('#red').addClass('redslideinright');
 			$('#blue').addClass('blueslideoutright');
