@@ -4,13 +4,15 @@
 	position: absolute;
 	left: 25%;
 	margin: 0px auto;
-	background: white;
 	overflow: hidden;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: white;
 }
 
 #filler {
 	height: 5000px;
-	background: black;
+	background: #D3D3D3;
 }
 
 #green {

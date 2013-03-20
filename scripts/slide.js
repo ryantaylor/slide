@@ -1,9 +1,15 @@
+/* This script simply controls the execution of CSS animations.
+   All animation is performed using CSS keyframes. */
+
 $(document).ready(function() {
 
+	// Keep track of the current state of the animation.
 	var $count = 0;
 
 	$('#left').click(function() {
 		if ($count == 0) {
+		
+			// Remove and replace <div> elements in order to reset animation.
 			var elRed = $('#red');
 				elBlue = $('#blue');
 
@@ -20,6 +26,8 @@ $(document).ready(function() {
 		}
 		
 		else if ($count == 1) {
+		
+			// Remove and replace <div> elements in order to reset animation.
 			var elRed = $('#red');
 				elBlue = $('#blue');
 
@@ -38,6 +46,8 @@ $(document).ready(function() {
 	
 	$('#right').click(function() {
 		if ($count == 0) {
+		
+			// Remove and replace <div> elements in order to reset animation.
 			var elRed = $('#red');
 				elBlue = $('#blue');
 
@@ -54,6 +64,8 @@ $(document).ready(function() {
 		}
 		
 		else if ($count == 1) {
+		
+			// Remove and replace <div> elements in order to reset animation.
 			var elRed = $('#red');
 				elBlue = $('#blue');
 

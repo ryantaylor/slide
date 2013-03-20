@@ -1,10 +1,11 @@
 body {
-	background: black;
+	background: #D3D3D3;
 }
 
 h1 {
-	color: white;
+	color: #696969;
 	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #window-slide {
@@ -12,6 +13,8 @@ h1 {
 	height: 250px;
 	margin: 0px auto;
 	background: white;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
 }
 
 #red {
@@ -24,6 +27,10 @@ h1 {
 	margin-left: -100px;
 	margin-top: -100px;
 	opacity: 1;
+}
+
+#buttons {
+	text-align: center;
 }
 
 .redslideoutleft {
