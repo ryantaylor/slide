@@ -29,6 +29,8 @@ h1 {
 .redslideoutleft {
 	-webkit-animation: redslideoutleft 2s;
 	-moz-animation: redslideoutleft 2s;
+	-o-animation: redslideoutleft 2s;
+	-ms-animation: redslideoutleft 2s;
 }
 
 @-webkit-keyframes redslideoutleft {
@@ -57,9 +59,37 @@ h1 {
 	}
 }
 
+@-o-keyframes redslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+@-ms-keyframes redslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
 .redslideinleft {
 	-webkit-animation: redslideinleft 2s;
 	-moz-animation: redslideinleft 2s;
+	-o-animation: redslideinleft 2s;
+	-ms-animation: redslideinleft 2s;
 }
 
 @-webkit-keyframes redslideinleft {
@@ -89,9 +119,37 @@ h1 {
 	}
 }
 
+@-o-keyframes redslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-ms-keyframes redslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
 .redslideoutright {
 	-webkit-animation: redslideoutright 2s;
 	-moz-animation: redslideoutright 2s;
+	-o-animation: redslideoutright 2s;
+	-ms-animation: redslideoutright 2s;
 }
 
 @-webkit-keyframes redslideoutright {
@@ -120,9 +178,37 @@ h1 {
 	}
 }
 
+@-o-keyframes redslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+@-ms-keyframes redslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
 .redslideinright {
 	-webkit-animation: redslideinright 2s;
 	-moz-animation: redslideinright 2s;
+	-o-animation: redslideinright 2s;
+	-ms-animation: redslideinright 2s;
 }
 
 @-webkit-keyframes redslideinright {
@@ -152,6 +238,32 @@ h1 {
 	}
 }
 
+@-o-keyframes redslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-ms-keyframes redslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
 #blue {
 	width: 200px;
 	height: 200px;
@@ -167,6 +279,8 @@ h1 {
 .blueslideinleft {
 	-webkit-animation: blueslideinleft 2s;
 	-moz-animation: blueslideinleft 2s;
+	-o-animation: blueslideinleft 2s;
+	-ms-animation: blueslideinleft 2s;
 }
 
 @-webkit-keyframes blueslideinleft {
@@ -195,9 +309,37 @@ h1 {
 	}
 }
 
+@-o-keyframes blueslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-ms-keyframes blueslideinleft {
+
+	0% {
+		opacity: 0;
+		left: 75%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
 .blueslideoutleft {
 	-webkit-animation: blueslideoutleft 2s;
 	-moz-animation: blueslideoutleft 2s;
+	-o-animation: blueslideoutleft 2s;
+	-ms-animation: blueslideoutleft 2s;
 }
 
 @-webkit-keyframes blueslideoutleft {
@@ -226,9 +368,37 @@ h1 {
 	}
 }
 
+@-o-keyframes blueslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
+@-ms-keyframes blueslideoutleft {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 25%;
+	}
+}
+
 .blueslideinright {
 	-webkit-animation: blueslideinright 2s;
 	-moz-animation: blueslideinright 2s;
+	-o-animation: blueslideinright 2s;
+	-ms-animation: blueslideinright 2s;
 }
 
 @-webkit-keyframes blueslideinright {
@@ -257,9 +427,37 @@ h1 {
 	}
 }
 
+@-o-keyframes blueslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
+@-ms-keyframes blueslideinright {
+
+	0% {
+		opacity: 0;
+		left: 25%;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50%;
+	}
+}
+
 .blueslideoutright {
 	-webkit-animation: blueslideoutright 2s;
 	-moz-animation: blueslideoutright 2s;
+	-o-animation: blueslideoutright 2s;
+	-ms-animation: blueslideoutright 2s;
 }
 
 @-webkit-keyframes blueslideoutright {
@@ -276,6 +474,32 @@ h1 {
 }
 
 @-moz-keyframes blueslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+@-o-keyframes blueslideoutright {
+
+	0% {
+		opacity: 1;
+		left: 50%;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 75%;
+	}
+}
+
+@-ms-keyframes blueslideoutright {
 
 	0% {
 		opacity: 1;

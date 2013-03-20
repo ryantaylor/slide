@@ -10,12 +10,12 @@ $(document).ready(function() {
 	var MIDDLE = width;
 	var ANIM_CYCLE = 2000;
 	
-	$(document).scroll(function(e) {
-		relativeY = window.scrollY - THRESHOLD;
+	$(window).scroll(function(e) {
+		relativeY = window.pageYOffset - THRESHOLD;
 		
 		if (relativeY >= 0) {
 			relativeY = relativeY % ANIM_CYCLE;
-			backdrop.animate({top: (window.scrollY + 25)}, 0);
+			backdrop.animate({top: (window.pageYOffset + 25)}, 0);
 			
 			if (relativeY <= 500) {
 				positionX = -relativeY / (500 / (width / 2));
