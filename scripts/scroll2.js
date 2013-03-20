@@ -12,10 +12,15 @@ $(document).ready(function() {
 	var ANIM_CYCLE = 2000;
 	
 	var maxScroll = $(document).height() - $(window).height();
-	var availableScroll = maxScroll = THRESHOLD;
 	
 	$(document).scroll(function(e) {
 		relativeY = window.scrollY - THRESHOLD;
+		
+		if (maxScroll <= window.scrollY) {
+			$('#filler').animate({height: $('#filler').css('height','+=1000').height()}, 0)
+			maxScroll = $(document).height() - $(window).height();
+		}
+		
 		if (relativeY >= 0) {
 			relativeY = relativeY % ANIM_CYCLE;
 			backdrop.animate({top: (window.scrollY + 25)}, 0);
