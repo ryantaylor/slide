@@ -1,3 +1,6 @@
+/* An experiment that was ultimately thrown out in favour of the
+   current implementation. Left here for completeness' sake. */
+
 $(document).ready(function() {
 
 	var element = $('#green');
