@@ -12,7 +12,10 @@ $(document).ready(function() {
 	var THRESHOLD = 375;
 	var BASE_Y = 505;
 	var MIDDLE = width;
-
+	
+	var maxScroll = $(document).height() - $(window).height();
+	var availableScroll = maxScroll = THRESHOLD;
+	
 	$(document).scroll(function(e) {
 		relativeY = window.scrollY - THRESHOLD;
 		if (relativeY >= 0) {
@@ -24,8 +27,15 @@ $(document).ready(function() {
 								 left: positionX,
 								 background: 'rgba(0,255,0,' + alpha + ')'}, 0);
 			}
-			//position = BASEX + window.scrollY - THRESHOLD;
-			//element.animate({top: position}, 0);
+			
+			else if (relativeY > 500 && relativeY <= 1500) {
+				positionX = borderLeft + (relativeY - 500) / (500 / borderLeft);
+				positionY = BASE_Y + relativeY;
+				alpha = 0.5 + 0.5 * relativeY / 500;
+				element.animate({top: positionY,
+								 left: positionX,
+								 background: 'rgba(0,255,0,' + alpha + ')'}, 0);
+			}
 		}
 		else {
 			element.animate({top: BASE_Y,
